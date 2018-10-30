@@ -1,0 +1,16 @@
+<%= form_for @article do |f| %>
+  <div>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  </div>
+
+  <div>
+    <%= f.file_field :photo %>
+  </div>
+
+  <div>
+    <%= f.submit 'Grabar' %>
+  </div>
+
+
+<% end %>
